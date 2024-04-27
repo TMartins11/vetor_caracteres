@@ -5,7 +5,7 @@
 3- Construir o vetor ‘nomecompleto’ copiando as letras dos vetores nome e sobrenome utilizando repetições com índices - FEITO;
 4- Colocar os caracteres do nome completo em maiusculas - FEITO;
 5- Agora, colocar os caracteres em minúsculas, menos as primeiras letras do nome completo - FEITO;
-6- Retirar os espaços de um nome completo;
+6- Retirar os espaços de um nome completo - FEITO;
 7- Procurar se um nome está dentro de um nome completo.
 */
 
