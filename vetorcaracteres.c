@@ -86,7 +86,21 @@ int main(){
     printf("\nNome Completo em minúsculo (exceção das iniciais): %s!\n", nomecompleto);
 
     //Retirando o espaço entre nomecompleto
+    int espacos = 0;
     
+    for(i = 0; nomecompleto[i] != '\0'; i++){
+        if(nomecompleto[i] == ' '){
+            espacos++;
+            
+        }else{
+            nomecompleto[i - espacos] = nomecompleto[i];
+        }
+    }
+
+    //Finalizando o vetor nomecompleto
+    nomecompleto[i - espacos] = '\0';
+
+    printf("\nNome Completo sem espaços: %s!\n", nomecompleto);
 
     return 0;
 }
